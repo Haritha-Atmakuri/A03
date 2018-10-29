@@ -1,0 +1,20 @@
+{
+    "name": "a03",
+    "version": "0.0.1",
+    "description": "resume app",
+    "main": "app.js",
+    "dependencies": {
+        "body-parser": "latest",
+        "ejs": "latest",
+        "express": "latest",
+        "mailgun-js": "^0.22.0",
+        "morgan": "latest"
+    },
+    "author": "Denise Case",
+    "homepage": "https://bitbucket.org/professorcase/a03",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/professorcase/a03"
+    },
+    "license": "Apache-2.0"
+}

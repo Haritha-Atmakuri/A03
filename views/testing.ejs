@@ -1,0 +1,55 @@
+<% include header %>
+<link rel="stylesheet" href="/css/testing.css">
+<header class="main-header">
+    <h1>Typing Tester App</h1>
+</header>
+
+<section class="intro-section">
+    <div>
+        <p>This is a typing test.
+            Your goal is to duplicate the provided text,
+            EXACTLY, in the field below.
+            The timer starts when you start typing,
+            and only stops when you match this
+            text exactly. Good Luck!</p>
+    </div>
+</section>
+<br>
+<section class="text-section">
+    <div class="text-section-div">
+        <p>This is web app assignment.In this class you need to have fast typing skills.</p>
+    </div>
+</section>
+
+<br>
+<section class="text-area-section">
+    <div class="text-area-div">
+        <textarea id="text-area" rows="6" cols="56" placeholder="The Clock starts when you starts typing.."></textarea>
+    </div>
+</section>
+
+<br>
+<section class="result-section">
+    <div class="result-section-div">
+        <h2>Minutes:Seconds:Milliseconds</h2><br>
+        <span class="timer" id="minute" id="seconds" id="milli-seconds">00:00:00</span>
+        <span>
+                <button type="button" id="reset">Reset</button>
+            </span>
+    </div>
+</section>
+
+<!-- Congratulations Section -->
+<section class="cong-section">
+    <div class="cong-section-div">
+        <p>Congratulations !!</p>
+    </div>
+</section>
+
+<footer>
+    <p>All Rights Reserved</p>
+    <small>Developed by Haritha Atmakuri</small>
+</footer>
+<script src="js/testing.js"></script>
+
+<% include footer %>

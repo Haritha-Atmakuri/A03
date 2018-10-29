@@ -1,0 +1,105 @@
+<% include header %>
+<div class="container mychoice">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 col-sm-8 col-xs-8 col-lg-8">
+
+            <div class="jumbotron">
+                <h3 id="af">Application Form</h3>
+                <form class="form-input" onsubmit="questions()" method="POST">
+                    <div>
+                        First Name:<br>
+                        <input type="text" name="firstname"placeholder="Name" class="form-control" pattern="[A-Za-z]{2,}" required>
+                    </div>
+                    <div>
+                        Email:<br>
+                        <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Enter email address" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
+                                <div class="input-group-append">
+                                  <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                                </div>
+                              </div>
+                    </div>
+                    <div>
+                        Password:<br>
+                        <input type="password" id="password" pattern=".{6,}" class="form-control" placeholder="Password"
+                            title="Six or more characters">
+                    </div>
+                    <div>
+                            Phone Number:<br>
+                            <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text" id="basic-addon1">+1</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="(xxx)-xxx-xxxx" maxlength="10" minlength="10" pattern="^\d{10}" aria-label="Username" aria-describedby="basic-addon1">
+                                  </div>
+                    <div>
+                        <label for="selection">Gender:</label><br>
+                        <input type="radio" name="selection" value="male"> Male<br>
+                        <input type="radio" name="selection" value="Female"> Female<br>
+                    </div><br>
+                    <div class="form-group basic-textarea rounded-corners">
+                        If you have any problem Leave a message below<br>
+                        <textarea rows="5" class="form-control " placeholder="Leave a Message"></textarea>
+                    </div>
+                    <div id="button">
+
+                        <button type="submit" value="submit" class="btn btn-success">Submit</button>
+                        <button type="reset" value="cancel" class="btn btn-danger">Cancel</button>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2 col-xs-2"></div>
+        <div class="col-md-3 col-xs-2">
+            <div class="card" style="width:200px">
+                <div class="card-body">
+
+                    <a href="https://www.linkedin.com/in/haritha-harry-00299316b/"><i class="fa fa-linkedin  fa-5x"></i>
+                        Linkedin</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-xs-2">
+            <div class="card" style="width:200px">
+                <div class="card-body">
+                    <a href="https://github.com/Haritha-Atmakuri"><i class="fa fa-github fa-5x"></i>GitHub</a></div>
+            </div>
+
+        </div>
+        <div class="col-md-3 col-xs-2">
+            <div class="card" style="width:200px">
+                <div class="card-body">
+                    <a href="https://bitbucket.org/Haritha-Atmakuri/"><i class="fa fa-bitbucket fa-5x"></i>Bitbucket</a></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-xs-4"></div>
+    <br>
+
+</div>
+<div id="fo" class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+    <footer>
+        <p>&copy; Developed by Haritha,Atmakuri</p>
+    </footer>
+</div>
+
+<!-- /container -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/contact.js"></script>
+
+<% include footer %>

@@ -1,0 +1,39 @@
+#navbar-nav{
+    float:right;
+}
+.mychoice{
+    margin-top: 5em;
+}
+.decoration{
+    text-decoration:underline;
+}
+#contact{
+    text-decoration:underline;
+}
+#img{
+    background-image: url(/images/images.jpg); 
+    background-repeat: no-repeat;  
+    background-size:cover;
+    /* background-size:200%; */
+}
+body{
+    background-image: url(/images/images.jpg); 
+    background-repeat:repeat; 
+    background-size:cover;
+}
+footer{
+    height: 40px;
+    bottom: 0;
+    text-align:center;
+}
+footer p{
+    text-align: center;
+    position: relative;   
+    display: inline-block;
+}
+#af{
+    text-align:center;
+}
+#button{
+text-align:center;
+}
